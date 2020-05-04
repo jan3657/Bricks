@@ -1,0 +1,74 @@
+
+* { 
+	padding: 0;
+	margin: 0; 
+}
+
+canvas {
+	z-index:51;
+	display: block; 
+	position: absolute;
+	bottom:229px;
+	left:462px;
+	
+}
+body {
+	background-image: url("slike/background2.jpg");
+	
+}
+#miza{
+	z-index:50;
+	bottom:0px;
+	left:300px;
+	width: 900px;
+	height:820px;
+	position:absolute;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url("slike/deskWithMonitor.png");
+	
+}
+#mesto{
+	width:790px;
+	height:550px;
+	position:absolute;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-image: url("slike/mesto2.gif");
+	bottom: 355px;
+	left: 805px;
+	
+}
+#okno{
+	
+	width:800px;
+	height:620px;
+	position:absolute;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url("slike/okno.png");
+	bottom: 300px;
+	left: 800px;
+	
+}
+#start{
+	z-index:55;
+	width:60px;
+	height:30px;
+	position:absolute;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url("slike/startButton2.png");
+	left: 720px;
+	bottom: 350px;
+	
+}
+#start:hover{
+	opacity:50%;
+	cursor:pointer;
+	
+}
